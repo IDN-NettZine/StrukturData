@@ -4,6 +4,7 @@ public class TowersApp {
     public static void main(String[] args) {
         doTowers(nDisks, 'A', 'B', 'C');
     }
+//    3, A, B, C >> 2, A, C, B >> Disk 2
     public static void doTowers(int topN, char from, char inter, char to) {
         if (topN == 1) {
             System.out.println("Disk 1 from " + from + " to " + to);
